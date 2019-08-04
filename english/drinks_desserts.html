@@ -1,0 +1,98 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<meta name="apple-mobile-web-app-capable" content="yes" />
+
+<title>Chef Tony Menu - Beverage & Desserts - Grid View</title>
+<link rel="stylesheet" type="text/css" href="../css/reset.css">
+<link rel="stylesheet" type="text/css" href="../css/main.css">
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300' rel='stylesheet' type='text/css'>
+
+</head>
+ 
+<body>
+
+<div id="header"><!--
+	<span class="helper"></span>-->
+    <a href="../index.html"><img src="../images/logo.svg" alt="Chef Tony Menu" /></a>
+	<a href="../chinese/drinks_desserts.html" class="lang"><img src="../images/yd-ipad-icons-05.svg"></a> </div><!--header-->
+
+<div id="wrapper" class="clearfix is_english">
+	<div id="sidebar">
+		<ul>
+			<li><a href="starters.html">Starters</a></li>
+			<li><a href="soups.html">Double-boiled soup</a></li>
+			<li><a class="tworow" href="birdsnest_swimbladder_seacucumber.html">Bird's nest, Sea cucumber <br />&amp; Fish maw</a></li>
+            <li><a href="abalone_sharkfin_list.html">Abalone &amp; Shark's Fin</a></li>
+            <li><a href="bbq.html">Barbequed meat</a></li>
+			<li><a href="specialties_luxury.html">Chef Tony  Specialties</a></li>
+			<li><a href="specialties_heart.html">Home style favourites</a></li>
+			<li><a href="hotpot.html">Casseroles</a></li>
+<li><a href="oldfashion.html">Old Time Specialties</a></li>
+            <li><a href="noodles_rices.html">Noodles &amp; rice</a></li>
+			<li><a class="active" href="drinks_desserts.html">Desserts / Beverages</a></li>
+<!--<li><a href="desserts_list.html">Desserts</a></li>
+            <li><a href="beverage_list.html">Beverage</a></li>
+			<li><a class="active" href="oldfashion.html">Old Time Specialties &#9733;</a></li>-->
+		</ul>
+	</div><!--sidebar-->
+	<div id="gridview" class="menu_body">
+
+        <a href="desserts_list.html">
+        <div class="grid_thumb">
+			<div class="heading">
+				<h1>Desserts</h1>
+			</div>
+			<img src="../images/dishes/9_dessert/almondbirdsnest_s.jpg" alt="" />
+		</div><!--grid_thumb-->
+        </a>
+    	
+        <a href="beverage_list.html">
+        <div class="grid_thumb">
+			<div class="heading">
+				<h1>Beverages</h1>
+			</div>
+			<img src="../images/dishes/beverages_s.jpg" alt="" />
+		</div><!--grid_thumb-->
+        </a>
+
+
+
+	</div><!-- menu_body-->
+</div><!--wrapper-->
+
+<script src="../js/jquery.min.js"></script><!--
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script src="http://code.jquery.com/jquery-1.9.0.js"></script>-->
+<script src="../js/jquery-migrate-1.2.1.js"></script>
+
+<script type="text/javascript" src="../js/jquery.bxslider.min.js"></script>
+<script type="text/javascript" src="../js/main.js"></script>
+
+<script>
+	$( document ).ready(function() {
+	  // Handler for .ready() called.
+	 // $( "<div class='arrow-right'></div>").insertAfter( "#sidebar a.active" );
+	  $("<img class='glare' src='../images/glare.png'>").insertAfter( "div.grid_thumb img" );
+	  
+	  /*
+	  $("div.grid_thumb").each(function(index){
+		  index2 = index + 1;
+	  	  //$(this).wrap( "<a href='starters_list.html#starter"+ index2 +"'></a>" );
+		  $(this).wrap( "<a href='cny_list.html?id="+ index2 +"'></a>" );
+	  });*/
+	  
+	});
+	window.addEventListener("load",function() {
+		// Set a timeout...
+		setTimeout(function(){
+			// Hide the address bar!
+			window.scrollTo(0, 1);
+		}, 0);
+	});
+	
+</script>
+</body>
+</html>

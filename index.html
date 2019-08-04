@@ -1,0 +1,55 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<meta name="apple-mobile-web-app-capable" content="yes" />
+
+<title>Chef Tony Menu - Homepage</title>
+<link rel="stylesheet" type="text/css" href="css/reset.css">
+<link rel="stylesheet" type="text/css" href="css/main.css">
+</head>
+
+<body>
+
+<div id="wrapper" class=" mainindex clearfix">
+	
+    <div class="link_wrap">
+        <a href="chinese/starters.html"><img src="images/yd-ipad-icons-01.svg"></a>
+        <a href="english/starters.html"><img src="images/yd-ipad-icons-02.svg"></a>
+    </div>
+    
+    <p>世界御廚《阿一鮑魚》楊貫一先生與入室弟子何惠東先生</p>
+</div><!--wrapper-->
+
+<script src="js/jquery.min.js"></script><!--
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script src="http://code.jquery.com/jquery-1.9.0.js"></script>-->
+<script src="js/jquery-migrate-1.2.1.js"></script>
+
+<script type="text/javascript" src="js/jquery.bxslider.min.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
+
+<script>
+	$( document ).ready(function() {
+	  // Handler for .ready() called.
+	  $( "<div class='arrow-right'></div>").insertAfter( "#sidebar a.active" );
+	  
+	});
+	window.addEventListener("load",function() {
+		// Set a timeout...
+		setTimeout(function(){
+			// Hide the address bar!
+			window.scrollTo(0, 1);
+		}, 0);
+	});
+	$(document).bind(
+      'touchmove',
+          function(e) {
+            e.preventDefault();
+          }
+	);
+	
+</script>
+</body>
+</html>
