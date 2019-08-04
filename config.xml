@@ -7,7 +7,7 @@
 
     <!-- versionCode is optional and Android only -->
 
-    <name>Chef Tony Richmond</name>
+    <name>Chef Tony Edmonton</name>
 	<icon src="res/icon/ios/icon.png" />
 	<icon src="res/icon/ios/icon.png" platform="ios"/>
   <preference name="Fullscreen" value="true" /> 
@@ -41,7 +41,7 @@
 
 </platform>
     <description>
-        Application for Chef Tony Menu.
+        Application for Chef Tony Menu Edmonton.
     </description>
 
     <author href="https://build.phonegap.com" email="clee@ecdgraphics.ca">
