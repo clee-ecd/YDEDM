@@ -171,7 +171,7 @@ h1{
 }
 .mainindex p{
 	font-size: 1.3em;
-	color: #431700;
+	color: #520240;
 	font-weight: 600;
 	position: absolute;/*
 	bottom: 0px;
@@ -292,7 +292,7 @@ div.menu_body > a:nth-of-type(3n) div.grid_thumb{
 	background: #411700;
 	background: rgba(65, 23, 0, 0.85);
 	background: #040404;*/
-	background: #431700;
+	background: #520240;
 	height:55px;
 	font-size:1.2em;
 }
@@ -418,7 +418,7 @@ sup{
 /*#listview.noimg_list .heading h1,
 #listview.noimg_list .heading .price*/
 .noimg .heading h1, .noimg .heading .price{
-	color:#431700;
+	color:#520240;
 }
 .list_item{
 	position:relative;
@@ -433,7 +433,7 @@ sup{
 	-webkit-box-sizing: border-box;
 	/*padding:7px 8px 0;background: rgba(4, 4, 4, 0.7);*/
 	padding:22px 8px 0;
-	background: #431700;
+	background: #520240;
 	
 }
 .noimg.list_item .heading{
@@ -569,7 +569,7 @@ top:6px;
 	height:698px !important;
 }
 .noimg.list_item .heading.headerblock{
-	background: #431700;
+	background: #520240;
 }
 .noimg.list_item .heading.headerblock h1{
 	color: #fff;
