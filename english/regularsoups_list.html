@@ -1,0 +1,170 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<meta name="apple-mobile-web-app-capable" content="yes" />
+
+<title>Chef Tony Menu - Regular Soups - List View</title>
+<link rel="stylesheet" type="text/css" href="../css/reset.css">
+<link rel="stylesheet" type="text/css" href="../css/main.css">
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300' rel='stylesheet' type='text/css'>
+<style>
+.is_tea.tags{
+	display:block
+}
+.is_tea.tags p{
+	color: #431700; 
+	border-color: #431700; 
+	width:330px;
+}
+</style>
+</head>
+
+<body>
+
+<div id="header"><!--
+	<span class="helper"></span>-->
+    <a href="../index.html"><img src="../images/logo.svg" alt="Chef Tony Menu" /></a>
+    <!-- <a id="back" href="drinks_desserts.html"><img src="../images/yd-ipad-icons-08.svg"></a> -->
+	<a href="../chinese/regularsoups_list.html?id=1" class="lang"><img src="../images/yd-ipad-icons-05.svg"></a> </div><!--header-->
+
+<div id="wrapper" class="clearfix is_english">
+	<div id="sidebar">
+		<ul>
+			<li><a href="starters.html">Starters</a></li>
+            <li><a href="soups.html">Double-boiled Soup</a></li>
+            <li><a class="active" href="regularsoups_list.html">Soup</a></li>
+            <!-- <li><a class="tworow" href="birdsnest_swimbladder_seacucumber.html">Bird's nest, Sea cucumber <br />&amp; Fish maw</a></li> -->
+            <li><a href="abalone_sharkfin_list.html">Shark's Fin</a></li>
+            <li><a href="bbq.html">Barbequed meat</a></li>
+			<li><a href="specialties_luxury.html">Chef Tony  Specialties</a></li>
+			<li><a href="specialties_heart.html">Home style favourites</a></li>
+			<li><a href="hotpot.html">Casseroles</a></li>
+			<li><a href="oldfashion.html">Old Time Specialties</a></li>
+			<li><a href="noodles_rices.html">Noodles &amp; rice</a></li>
+			<li><a href="drinks_desserts.html">Desserts / Beverages</a></li>
+			<!--<li><a href="desserts_list.html">Desserts</a></li>
+			<li><a class="active" href="beverage_list.html">Beverage</a></li>
+			<li><a href="oldfashion.html">Old Time Specialties &#9733;</a></li>-->
+		</ul>
+	</div><!--sidebar-->
+	<div id="listview" class="menu_body" >
+    	<!--style="overflow-y: scroll;overflow-x: hidden; height:546px;"-->
+        
+        
+    	<ul class="bxslider">
+
+		<li class="list_item" style="min-height:420px;">
+        	<img src="../images/dishes/2_soups/spicysour.jpg" alt="Reg Soups" />
+        </li>
+        
+        <li class="list_item noimg">
+            
+            <div class="heading">
+				<h1>Crabmeat and fish maw soup (Bowl/Reg.)</h1>
+                <p class="desc"></p>
+                <div class="tags">
+                </div>
+				<p class="price">$6<sup>.80</sup> / $27<sup>.80</sup></p>
+			</div>
+
+			<div class="heading">
+				<h1>Fish paste, tofu and cilantro soup (Bowl/Reg.)</h1>
+                <p class="desc"></p>
+                <div class="tags">
+                </div>
+				<p class="price">$6<sup>.80</sup> / $27<sup>.80</sup></p>
+			</div>
+
+			<div class="heading">
+				<h1>Duck slices and yellow chive soup (Bowl/Reg.)</h1>
+                <p class="desc"></p>
+                <div class="tags">
+                </div>
+				<p class="price">$6<sup>.00</sup> / $21<sup>.80</sup></p>
+			</div>
+
+			<div class="heading">
+				<h1>Wild mushroom and corn soup (Bowl/Reg.)</h1>
+                <p class="desc"></p>
+                <div class="tags">
+                </div>
+				<p class="price">$6<sup>.00</sup> / $21<sup>.80</sup></p>
+			</div>
+
+			<div class="heading">
+				<h1>Spicy hot and sour soup (Bowl/Reg.)</h1>
+                <p class="desc"></p>
+                <div class="tags">
+                </div>
+				<p class="price">$5<sup>.80</sup> / $20<sup>.80</sup></p>
+			</div>
+
+			<div class="heading">
+				<h1>Salty and preserved egg, mustard green and pork soup (Bowl/Reg.)</h1>
+                <p class="desc"></p>
+                <div class="tags">
+                </div>
+				<p class="price">$5<sup>.80</sup> / $20<sup>.80</sup></p>
+			</div>
+
+		</li><!--list_item--> 
+        
+	</ul>
+        
+	</div><!-- menu_body-->
+</div><!--wrapper-->
+
+<script src="../js/jquery.min.js"></script><!--
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script src="http://code.jquery.com/jquery-1.9.0.js"></script>-->
+<script src="../js/jquery-migrate-1.2.1.js"></script>
+
+<script type="text/javascript" src="../js/jquery.bxslider.min.js"></script><!--
+<script type="text/javascript" src="../js/easyzoom.js"></script>-->
+<script type="text/javascript" src="../js/main.js"></script>
+
+<script>
+	$( document ).ready(function() {
+		$("<img class='glare' src='../images/glare2.png'>").insertAfter( "li.list_item img" );
+		
+	  // Handler for .ready() called.
+	  //$( "<div class='arrow-right'></div>").insertAfter( "#sidebar a.active" );
+	  $( "li.list_item" ).each(function(index){
+		  index2 = index + 1;
+		  //$(this).prepend( "<a id='abalone"+ index2 + "'></a>" );
+	  });
+	  
+	  
+	  $('.bxslider').bxSlider({
+			//startSlide: id - 1,
+			mode: 'vertical',
+			pager: false,
+			infiniteLoop: true,
+			//auto: true,
+			controls: false
+		});
+		
+		
+	}); //end ready
+	
+	window.addEventListener("load",function() {
+		// Set a timeout...
+		setTimeout(function(){
+			// Hide the address bar!
+			window.scrollTo(0, 1);
+		}, 0);
+	});
+	
+	
+	$(document).bind(
+      'touchmove',
+          function(e) {
+            e.preventDefault();
+          }
+	);
+	
+</script>
+</body>
+</html>
